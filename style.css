@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://media.istockphoto.com/photos/metaverse-virtual-reality-futuristic-web3-internet-avatar-augmented-picture-id1391668458?b=1&k=20&m=1391668458&s=170667a&w=0&h=MnTCPwkWcTUwe1wT4QuHcF6HPRMQei7jDpkj48T8pfA=");
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  h2 {
+    text-transform: uppercase;
+    border-radius: 20px;
+    letter-spacing: 4px;
+    font-size: 28px;
+    margin: 10px;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    background-color: rgb(119, 190, 223);
+    opacity: .8;
+    color: rgb(0, 0, 0);
+}
+
+.clock {
+    display: flex;
+}
+
+.clock div {
+    margin: 5px;
+    position: relative;
+}
+
+.clock span {
+    width: 110px;
+    height: 90px;
+    background: rgb(138, 200, 224);
+    opacity: 0.8;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.clock .text {
+    height: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(16, 128, 233);
+    border-radius: 0px 0px 10px 10px;
+    opacity: 0.8;
+}
+
+.clock #ampm {
+    color: rgb(0, 0, 0);
+    bottom: 0;
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    font-size: 30px;
+    background: rgb(44, 201, 193);
+    border-radius: 5px;
+}
